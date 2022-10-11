@@ -42,23 +42,15 @@ p {
   background-color: yellow;
 }
 
-.picture-box:nth-child(1) {
+.picture-box:first-child,
+.picture-box:nth-child(5),
+.picture-box:last-child {
   width: 30%;
   height: 200px;
   margin: 0 auto 40px;
   background-color: orange;
 }
 
-.picture-box:nth-child(5) {
-  width: 30%;
-  height: 200px;
-  margin: 0 auto 40px;
-  background-color: orange;
-}
-
-.picture-box:nth-child(9) {
-  width: 30%;
-  height: 200px;
-  margin: 0 auto 40px;
-  background-color: orange;
+.picture-box {
+  
 }
