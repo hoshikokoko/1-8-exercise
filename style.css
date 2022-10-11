@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.sideber {
+  margin: 0 auto;
+  width: 960px;
+  background-color: pink;
+}
+
+.blog-box {
+  margin: 50px 0;
+  
+}
+
+.blog-list:nth-child(odd) {
+  width: 100%;
+  background-color: lightgray;
+  
+}
+
+.blog-list:nth-child(even) {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+p {
+  padding: 20px;
+  
+}
+
+.picture {
+  
+}
